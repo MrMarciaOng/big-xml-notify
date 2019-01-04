@@ -1,5 +1,9 @@
 # big-xml-notify -- A fork of npm big-xml, when big files is fully read an "close" event will be emitted.
 
+## Motivation 
+
+Added this notify feature for my school data processing assignment.
+There are many big files to process and I need to know when the files has been fully processed. 
 
 ## Install
 
