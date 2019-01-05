@@ -1,6 +1,6 @@
 {
   "name": "big-xml-notify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fork of npm big-xml, added \"close\" event emitter when file is fully read",
   "main": "index.js",
   "directories": {
