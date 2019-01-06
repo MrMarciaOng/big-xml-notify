@@ -25,6 +25,12 @@ var reader = bigXml.createReader('data.xml.gz', /^(Foo|Bar)$/, { gzip: true });
 reader.on('record', function(record) {
   console.log(record);
 });
+
+reader.on('close', function(){
+
+console.log("File is fully read")
+})
+
 ```
 
 The output would take the form:
@@ -40,13 +46,10 @@ The output would take the form:
 
 And if you want to handle errors (by default they are thrown):
 
-```
+```javascript
 reader.on('error', function(err) {
   console.log(err);
 });
 
-reader.on('close', function(){
 
-console.log("File is fully read")
-})
 ```
