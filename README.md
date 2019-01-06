@@ -42,6 +42,7 @@ The output would take the form:
     { tag: 'Color', text: 'blue'} 
   ]
 }
+
 ```
 
 And if you want to handle errors (by default they are thrown):
